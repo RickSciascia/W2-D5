@@ -1,1 +1,122 @@
-/* Your styles here */
+/* GENERALI */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0.5em 0; /* 1em sopra e sotto, 0 dx e sx */
+  line-height: 1.35em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin: 0.25em 0;
+  line-height: 1.35em;
+}
+
+ol,
+ul {
+  padding-left: 2em;
+  margin: 1em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+a {
+  text-decoration: none;
+  color: #004f5a;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+/* HEADER */
+.dark-blue-bg {
+  background-color: #222f3f;
+  height: 70px;
+}
+.logo {
+  max-height: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* NAV */
+.light-blue-bg {
+  background-color: #364759;
+  height: 40px;
+  padding-left: 40px;
+}
+.light-blue-bg span {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.light-blue-bg a {
+  color: #f2fdff;
+  text-decoration: none;
+}
+/* MAIN */
+.sp-bianco {
+  height: 40px;
+}
+.orange-bg {
+  background-color: #f56600;
+  width: 96%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.orange-bg p {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+.main-banner {
+  height: 230px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  background-image: url(../images/bg-image.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+.main-banner h1 {
+  padding-top: 85px;
+  text-align: center;
+  color: white;
+}
+.bold-p {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+.unique-block {
+  background-color: white;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
